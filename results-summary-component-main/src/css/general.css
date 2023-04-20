@@ -19,10 +19,10 @@ html{
     --bg-200:#1b1b1b;
     --bg-300:#323232;
 
-    --font-1: 1rem;
-    --font-2: .8rem;
-    --font-3: .6rem;
-    --font-4: .4rem;
+    --font-1: .8rem;
+    --font-2: .6rem;
+    --font-3: .4rem;
+    --font-4: .2rem;
 }
 
 body{
@@ -82,7 +82,49 @@ body{
 }
 
 .list_item{
+    width: 80%;
     display: flex;
     flex-direction: row;
-    align-items: center
+    align-items: center;
+    border-radius: .7rem;
+    padding: 0 1rem;
+    margin: 2rem 0;
 }
+
+.list_item:nth-child(1){
+    margin-top:0;
+}
+
+.list_item:nth-child(2){
+    background-color: rgba(255, 0, 0 ,0.1);
+    margin-top: 0;
+    color: rgba(255, 0, 0 , .5);
+}
+
+.list_item:nth-child(3){
+    background-color: rgba(155, 155, 0 ,0.1);
+    color: rgba(155, 155, 0 ,0.5)
+}
+
+.list_item:nth-child(4){
+    background-color: rgba(5, 155, 0, 0.1);
+    color: rgba(5, 155, 0, 0.5)
+    
+}
+
+.list_item:nth-child(5){
+    background-color: rgba(13, 0, 190, 0.1);
+    color: rgba(13, 0, 190, 0.5);
+}
+.list_icon{
+
+}
+
+.list_subtitle{
+    margin: 0;
+}
+
+.list_paragraph{
+
+}
+
